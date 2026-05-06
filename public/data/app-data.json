@@ -1,0 +1,2712 @@
+{
+  "generatedAt": "2026-04-29T21:25:23.214362",
+  "project": {
+    "name": "لوحة شبكات مرافق مدينة العبور الجديدة",
+    "subtitle": "مشروع التحول الرقمي لشبكات المرافق",
+    "city": "مدينة العبور الجديدة",
+    "organization": "هيئة المجتمعات العمرانية الجديدة × Geoinformatics for Information Systems",
+    "direction": "rtl"
+  },
+  "networks": [
+    {
+      "id": "electricity",
+      "name": "شبكة الكهرباء",
+      "shortName": "الكهرباء",
+      "color": "#f9d84a",
+      "gradient": "linear-gradient(135deg,#ffe66d,#ff9f1c)",
+      "icon": "Zap",
+      "description": "لوحة تشغيلية لشبكة الكهرباء تشمل الأعمدة والكوفريات والأكشاك والبيلرات والموزعات وخطوط الكابلات.",
+      "layers": [
+        {
+          "id": "electricity_assets",
+          "source": "مرافق_شبكة_الكهرباء",
+          "name": "مرافق شبكة الكهرباء",
+          "assetName": "مرافق الكهرباء",
+          "typeField": "Electric_Feature_Type",
+          "metric": "عدد مرافق الكهرباء",
+          "file": "data/layers/electricity_assets.geojson",
+          "sourceLayer": "مرافق_شبكة_الكهرباء",
+          "featureCount": 7551,
+          "geometryKind": "point",
+          "totalLengthM": 0,
+          "totalLengthKm": 0,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "Description",
+            "Electric_Feature_Type",
+            "Easting",
+            "Northing",
+            "ID",
+            "sectors",
+            "Implementing"
+          ],
+          "topTypes": [
+            {
+              "name": "اعمدة الانارة",
+              "count": 5459
+            },
+            {
+              "name": "كوفرية",
+              "count": 2055
+            },
+            {
+              "name": "كشك تحت الانشاء",
+              "count": 37
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الثاني",
+              "count": 1213
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 1122
+            },
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 945
+            },
+            {
+              "name": "القطاع الرابع عشر",
+              "count": 930
+            },
+            {
+              "name": "القطاع الخامس عشر",
+              "count": 663
+            },
+            {
+              "name": "القطاع السادس عشر",
+              "count": 633
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 603
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 581
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 410
+            },
+            {
+              "name": "القطاع السابع عشر",
+              "count": 345
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "شركة الكتروالهانى",
+              "count": 7551
+            }
+          ],
+          "statusBreakdown": []
+        },
+        {
+          "id": "electricity_lines",
+          "source": "خطوط_شبكة_الكهرباء",
+          "name": "خطوط شبكة الكهرباء",
+          "assetName": "كابلات الكهرباء",
+          "typeField": "Electrical_Lines_Type",
+          "metric": "أطوال كابلات الكهرباء",
+          "file": "data/layers/electricity_lines.geojson",
+          "sourceLayer": "خطوط_شبكة_الكهرباء",
+          "featureCount": 6284,
+          "geometryKind": "line",
+          "totalLengthM": 820095.84,
+          "totalLengthKm": 820.096,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "ID",
+            "Description",
+            "Electrical_Lines_Type",
+            "source",
+            "destnation",
+            "GL",
+            "IL",
+            "Depth",
+            "Implementing",
+            "sectors",
+            "SHAPE_Length"
+          ],
+          "topTypes": [
+            {
+              "name": "تغذية العمارات",
+              "count": 3761
+            },
+            {
+              "name": "كابلات الجهد المنخفض",
+              "count": 1478
+            },
+            {
+              "name": "كابلات اعمدة الانارة",
+              "count": 724
+            },
+            {
+              "name": "كابلات الجهد المتوسط",
+              "count": 321
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الرابع عشر",
+              "count": 912
+            },
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 910
+            },
+            {
+              "name": "القطاع الثاني",
+              "count": 885
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 861
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 567
+            },
+            {
+              "name": "القطاع الخامس عشر",
+              "count": 549
+            },
+            {
+              "name": "القطاع السادس عشر",
+              "count": 512
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 484
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 405
+            },
+            {
+              "name": "القطاع السابع عشر",
+              "count": 198
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "شركة الكتروالهانى",
+              "count": 6284
+            }
+          ],
+          "statusBreakdown": []
+        },
+        {
+          "id": "electricity_facilities",
+          "source": "منشأت_شبكة_الكهرباء",
+          "name": "منشآت شبكة الكهرباء",
+          "assetName": "منشآت الكهرباء",
+          "typeField": "Electric_Facility_Type",
+          "metric": "عدد منشآت الكهرباء",
+          "file": "data/layers/electricity_facilities.geojson",
+          "sourceLayer": "منشأت_شبكة_الكهرباء",
+          "featureCount": 1217,
+          "geometryKind": "polygon",
+          "totalLengthM": 14091.36,
+          "totalLengthKm": 14.091,
+          "totalAreaM2": 52761.48,
+          "totalAreaHa": 5.276,
+          "columns": [
+            "Electric_Facility_Type",
+            "Easting",
+            "Northing",
+            "Description",
+            "ID",
+            "sectors",
+            "Implementing",
+            "SHAPE_Length",
+            "SHAPE_Area"
+          ],
+          "topTypes": [
+            {
+              "name": "بيلر",
+              "count": 965
+            },
+            {
+              "name": "كشك",
+              "count": 215
+            },
+            {
+              "name": "ولاعة اعمدة الانارة",
+              "count": 29
+            },
+            {
+              "name": "موزع كهرباء",
+              "count": 7
+            },
+            {
+              "name": "محطة الكهرباء",
+              "count": 1
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الرابع عشر",
+              "count": 191
+            },
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 181
+            },
+            {
+              "name": "القطاع الثاني",
+              "count": 160
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 146
+            },
+            {
+              "name": "القطاع الخامس عشر",
+              "count": 115
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 114
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 113
+            },
+            {
+              "name": "القطاع السادس عشر",
+              "count": 106
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 53
+            },
+            {
+              "name": "القطاع السابع عشر",
+              "count": 38
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "شركة الكتروالهانى",
+              "count": 1217
+            }
+          ],
+          "statusBreakdown": []
+        }
+      ],
+      "totals": {
+        "features": 15052,
+        "lengthM": 834187.2,
+        "lengthKm": 834.19,
+        "areaM2": 52761.48,
+        "areaHa": 5.28,
+        "pointFeatures": 7551,
+        "lineFeatures": 6284,
+        "polygonFeatures": 1217,
+        "sectorsCount": 10,
+        "implementersCount": 1,
+        "topSectors": [
+          {
+            "name": "القطاع الثاني",
+            "count": 2258
+          },
+          {
+            "name": "القطاع الثالث",
+            "count": 2129
+          },
+          {
+            "name": "القطاع الثالث عشر",
+            "count": 2036
+          },
+          {
+            "name": "القطاع الرابع عشر",
+            "count": 2033
+          },
+          {
+            "name": "القطاع الخامس عشر",
+            "count": 1327
+          },
+          {
+            "name": "القطاع الثاني عشر",
+            "count": 1283
+          },
+          {
+            "name": "القطاع السادس عشر",
+            "count": 1251
+          },
+          {
+            "name": "القطاع الاول",
+            "count": 1179
+          },
+          {
+            "name": "القطاع الخامس",
+            "count": 868
+          },
+          {
+            "name": "القطاع السابع عشر",
+            "count": 581
+          }
+        ],
+        "topImplementers": [
+          {
+            "name": "شركة الكتروالهانى",
+            "count": 15052
+          }
+        ]
+      }
+    },
+    {
+      "id": "water",
+      "name": "شبكة المياه",
+      "shortName": "المياه",
+      "color": "#27d7ff",
+      "gradient": "linear-gradient(135deg,#5ee7ff,#0099ff)",
+      "icon": "Droplets",
+      "description": "متابعة محابس وغرف وخطوط وتوصيلات شبكة المياه وصنابير إطفاء الحريق.",
+      "layers": [
+        {
+          "id": "water_fire_hydrants",
+          "source": "صنبور_اطفاء_الحريق",
+          "name": "صنابير إطفاء الحريق",
+          "assetName": "صنابير الحريق",
+          "typeField": "",
+          "metric": "عدد صنابير الحريق",
+          "file": "data/layers/water_fire_hydrants.geojson",
+          "sourceLayer": "صنبور_اطفاء_الحريق",
+          "featureCount": 383,
+          "geometryKind": "point",
+          "totalLengthM": 0,
+          "totalLengthKm": 0,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "GlobalID",
+            "Easting",
+            "Northing",
+            "sectors",
+            "Implementing",
+            "Start",
+            "End_",
+            "Meter_Id",
+            "Description"
+          ],
+          "topTypes": [],
+          "topSectors": [
+            {
+              "name": "القطاع الرابع عشر",
+              "count": 87
+            },
+            {
+              "name": "القطاع الثاني",
+              "count": 66
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 61
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 52
+            },
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 42
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 41
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 34
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "عوض خليفة",
+              "count": 66
+            },
+            {
+              "name": "السلام",
+              "count": 61
+            },
+            {
+              "name": "التوحيد",
+              "count": 52
+            },
+            {
+              "name": "اولاد حجازي",
+              "count": 41
+            }
+          ],
+          "statusBreakdown": []
+        },
+        {
+          "id": "water_assets",
+          "source": "__مرافق_شبكة_المياة",
+          "name": "مرافق شبكة المياه",
+          "assetName": "محابس المياه",
+          "typeField": "Water_Feature_Type",
+          "metric": "عدد محابس المياه",
+          "file": "data/layers/water_assets.geojson",
+          "sourceLayer": "__مرافق_شبكة_المياة",
+          "featureCount": 1523,
+          "geometryKind": "point",
+          "totalLengthM": 0,
+          "totalLengthKm": 0,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "GlobalID",
+            "Description",
+            "ID",
+            "Water_Feature_Type",
+            "Easting",
+            "Northing",
+            "diameter",
+            "Implementing",
+            "sectors",
+            "GL",
+            "IL",
+            "Depth",
+            "Start1",
+            "End1",
+            "Manufacturing_material"
+          ],
+          "topTypes": [
+            {
+              "name": "محبس",
+              "count": 1523
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 410
+            },
+            {
+              "name": "القطاع الرابع عشر",
+              "count": 382
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 273
+            },
+            {
+              "name": "القطاع الثاني",
+              "count": 155
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 109
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 105
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 89
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "عوض خليفة ",
+              "count": 155
+            },
+            {
+              "name": "اولاد حجازي",
+              "count": 109
+            },
+            {
+              "name": "التوحيد",
+              "count": 105
+            },
+            {
+              "name": "السلام",
+              "count": 89
+            }
+          ],
+          "statusBreakdown": []
+        },
+        {
+          "id": "water_rooms",
+          "source": "غرف_المياة",
+          "name": "غرف المياه",
+          "assetName": "غرف المياه",
+          "typeField": "Room_type",
+          "metric": "عدد غرف المياه",
+          "file": "data/layers/water_rooms.geojson",
+          "sourceLayer": "غرف_المياة",
+          "featureCount": 158,
+          "geometryKind": "polygon",
+          "totalLengthM": 10871.7,
+          "totalLengthKm": 10.872,
+          "totalAreaM2": 53412.12,
+          "totalAreaHa": 5.341,
+          "columns": [
+            "GlobalID",
+            "Room_Id",
+            "Room_type",
+            "Room_contents",
+            "sectors",
+            "Implementing",
+            "Start",
+            "End_",
+            "GL",
+            "IL",
+            "Depth",
+            "diameter",
+            "dimention",
+            "Fault_statement",
+            "Manufacturing_material",
+            "TYPE",
+            "material",
+            "diameter2",
+            "SHAPE_Length",
+            "SHAPE_Area"
+          ],
+          "topTypes": [
+            {
+              "name": "غرفةمحابس",
+              "count": 72
+            },
+            {
+              "name": "غرف مياه",
+              "count": 48
+            },
+            {
+              "name": "تقاطع",
+              "count": 20
+            },
+            {
+              "name": "نموذج غرفة قفل و تقاطع",
+              "count": 5
+            },
+            {
+              "name": "تقاطع و هواء",
+              "count": 2
+            },
+            {
+              "name": "غرفه غسيل",
+              "count": 2
+            },
+            {
+              "name": "غرفة غسيل",
+              "count": 2
+            },
+            {
+              "name": "هواء",
+              "count": 2
+            },
+            {
+              "name": "تقاطع و غسيل",
+              "count": 1
+            },
+            {
+              "name": "غسيل",
+              "count": 1
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الرابع عشر",
+              "count": 54
+            },
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 38
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 34
+            },
+            {
+              "name": "القطاع الثاني",
+              "count": 13
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 11
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 8
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "عوض خليفة",
+              "count": 13
+            },
+            {
+              "name": "التوحيد",
+              "count": 11
+            },
+            {
+              "name": "السلام",
+              "count": 8
+            }
+          ],
+          "statusBreakdown": []
+        },
+        {
+          "id": "water_house_connections",
+          "source": "توصيلات_منزلية_شبكة_المياة",
+          "name": "توصيلات منزلية لشبكة المياه",
+          "assetName": "توصيلات منزلية",
+          "typeField": "diameter",
+          "metric": "أطوال التوصيلات المنزلية",
+          "file": "data/layers/water_house_connections.geojson",
+          "sourceLayer": "توصيلات_منزلية_شبكة_المياة",
+          "featureCount": 504,
+          "geometryKind": "line",
+          "totalLengthM": 9298.93,
+          "totalLengthKm": 9.299,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "GlobalID",
+            "line_degree",
+            "manufacturing_material",
+            "diameter",
+            "execution_position",
+            "Description",
+            "sectors",
+            "Start",
+            "End_",
+            "Implementing",
+            "Date_of_entry_into_service",
+            "Fault_statement",
+            "GL",
+            "IL",
+            "Depth",
+            "SHAPE_Length"
+          ],
+          "topTypes": [
+            {
+              "name": "750 مم",
+              "count": 504
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 316
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 188
+            }
+          ],
+          "topImplementers": [],
+          "statusBreakdown": []
+        },
+        {
+          "id": "water_lines",
+          "source": "قنوات_خطوط_شبكة_المياة",
+          "name": "قنوات وخطوط شبكة المياه",
+          "assetName": "خطوط المياه",
+          "typeField": "diameter",
+          "metric": "أطوال خطوط المياه",
+          "file": "data/layers/water_lines.geojson",
+          "sourceLayer": "قنوات_خطوط_شبكة_المياة",
+          "featureCount": 1644,
+          "geometryKind": "line",
+          "totalLengthM": 132148.19,
+          "totalLengthKm": 132.148,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "GlobalID",
+            "line_degree",
+            "manufacturing_material",
+            "diameter",
+            "execution_position",
+            "GL",
+            "IL",
+            "Depth",
+            "sectors",
+            "Implementing",
+            "Start",
+            "End_",
+            "Operating_pressure",
+            "Fault_statement",
+            "SHAPE_Length"
+          ],
+          "topTypes": [
+            {
+              "name": "110 مم",
+              "count": 482
+            },
+            {
+              "name": "100 مم",
+              "count": 372
+            },
+            {
+              "name": "150 مم",
+              "count": 266
+            },
+            {
+              "name": "160 مم",
+              "count": 202
+            },
+            {
+              "name": "225 مم",
+              "count": 99
+            },
+            {
+              "name": "200 مم",
+              "count": 88
+            },
+            {
+              "name": "315 مم",
+              "count": 56
+            },
+            {
+              "name": "600 مم",
+              "count": 21
+            },
+            {
+              "name": "400 مم",
+              "count": 14
+            },
+            {
+              "name": "300 مم",
+              "count": 13
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الرابع عشر",
+              "count": 703
+            },
+            {
+              "name": "القطاع الثاني",
+              "count": 289
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 246
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 153
+            },
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 119
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 76
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 58
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "عوض خليفة",
+              "count": 289
+            },
+            {
+              "name": "التوحيد",
+              "count": 246
+            },
+            {
+              "name": "اولاد حجازي",
+              "count": 153
+            },
+            {
+              "name": "السلام",
+              "count": 58
+            }
+          ],
+          "statusBreakdown": []
+        }
+      ],
+      "totals": {
+        "features": 4212,
+        "lengthM": 152318.82,
+        "lengthKm": 152.32,
+        "areaM2": 53412.12,
+        "areaHa": 5.34,
+        "pointFeatures": 1906,
+        "lineFeatures": 2148,
+        "polygonFeatures": 158,
+        "sectorsCount": 7,
+        "implementersCount": 5,
+        "topSectors": [
+          {
+            "name": "القطاع الرابع عشر",
+            "count": 1226
+          },
+          {
+            "name": "القطاع الثالث عشر",
+            "count": 925
+          },
+          {
+            "name": "القطاع الثاني عشر",
+            "count": 605
+          },
+          {
+            "name": "القطاع الثاني",
+            "count": 523
+          },
+          {
+            "name": "القطاع الثالث",
+            "count": 414
+          },
+          {
+            "name": "القطاع الاول",
+            "count": 303
+          },
+          {
+            "name": "القطاع الخامس",
+            "count": 216
+          }
+        ],
+        "topImplementers": [
+          {
+            "name": "التوحيد",
+            "count": 414
+          },
+          {
+            "name": "عوض خليفة",
+            "count": 368
+          },
+          {
+            "name": "اولاد حجازي",
+            "count": 303
+          },
+          {
+            "name": "السلام",
+            "count": 216
+          },
+          {
+            "name": "عوض خليفة ",
+            "count": 155
+          }
+        ]
+      }
+    },
+    {
+      "id": "sewer",
+      "name": "شبكة الصرف",
+      "shortName": "الصرف",
+      "color": "#ff4d6d",
+      "gradient": "linear-gradient(135deg,#ff758f,#ff004d)",
+      "icon": "Waves",
+      "description": "إدارة خطوط الصرف الصحي وغرف الصرف ومطابق الصرف الصحي وبلاعات صرف المطر.",
+      "layers": [
+        {
+          "id": "sewer_manholes",
+          "source": "مطابق_الصرف_الصحى",
+          "name": "مطابق الصرف الصحي",
+          "assetName": "مطابق الصرف الصحي",
+          "typeField": "Type",
+          "metric": "عدد مطابق الصرف",
+          "file": "data/layers/sewer_manholes.geojson",
+          "sourceLayer": "مطابق_الصرف_الصحى",
+          "featureCount": 2014,
+          "geometryKind": "point",
+          "totalLengthM": 0,
+          "totalLengthKm": 0,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "ID",
+            "Easting",
+            "Northing",
+            "Implementing",
+            "Start",
+            "End_",
+            "GlobalID",
+            "sectors",
+            "Depth",
+            "GL",
+            "IL",
+            "Type",
+            "dimention",
+            "Fault_statement"
+          ],
+          "topTypes": [
+            {
+              "name": "مربع",
+              "count": 1876
+            },
+            {
+              "name": "دائري",
+              "count": 138
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الخامس",
+              "count": 477
+            },
+            {
+              "name": "القطاع الثاني",
+              "count": 456
+            },
+            {
+              "name": "القطاع الثالث عشر ",
+              "count": 337
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 292
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 241
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 211
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "السلام",
+              "count": 477
+            },
+            {
+              "name": "عوض خليفة",
+              "count": 456
+            },
+            {
+              "name": "التوحيد",
+              "count": 292
+            },
+            {
+              "name": "اولاد حجازي",
+              "count": 211
+            }
+          ],
+          "statusBreakdown": []
+        },
+        {
+          "id": "storm_drains",
+          "source": "بلاعات_صرف_المطر",
+          "name": "بلاعات صرف المطر",
+          "assetName": "بلاعات المطر",
+          "typeField": "",
+          "metric": "عدد بلاعات المطر",
+          "file": "data/layers/storm_drains.geojson",
+          "sourceLayer": "بلاعات_صرف_المطر",
+          "featureCount": 30,
+          "geometryKind": "point",
+          "totalLengthM": 0,
+          "totalLengthKm": 0,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "GlobalID",
+            "ID",
+            "Easting",
+            "Northing",
+            "Implementing",
+            "Start",
+            "End_",
+            "sectors",
+            "Depth",
+            "GL",
+            "IL",
+            "dimention",
+            "maintenance"
+          ],
+          "topTypes": [],
+          "topSectors": [
+            {
+              "name": "القطاع الاول",
+              "count": 30
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "اولاد حجازي",
+              "count": 30
+            }
+          ],
+          "statusBreakdown": []
+        },
+        {
+          "id": "sewer_rooms",
+          "source": "غرف_شبكة_الصرف",
+          "name": "غرف شبكة الصرف",
+          "assetName": "غرف الصرف",
+          "typeField": "Rooms_type",
+          "metric": "عدد غرف الصرف",
+          "file": "data/layers/sewer_rooms.geojson",
+          "sourceLayer": "غرف_شبكة_الصرف",
+          "featureCount": 13,
+          "geometryKind": "polygon",
+          "totalLengthM": 429.09,
+          "totalLengthKm": 0.429,
+          "totalAreaM2": 855.83,
+          "totalAreaHa": 0.086,
+          "columns": [
+            "GlobalID",
+            "Station_Id",
+            "Rooms_type",
+            "Capacity",
+            "Status",
+            "sectors",
+            "Implementing",
+            "Start",
+            "End_",
+            "SHAPE_Length",
+            "SHAPE_Area"
+          ],
+          "topTypes": [
+            {
+              "name": "غرفة",
+              "count": 13
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الاول",
+              "count": 13
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "اولاد حجازي",
+              "count": 13
+            }
+          ],
+          "statusBreakdown": []
+        },
+        {
+          "id": "sewer_lines",
+          "source": "خطوط_شبكة_الصرف",
+          "name": "خطوط شبكة الصرف",
+          "assetName": "خطوط الصرف",
+          "typeField": "diameter",
+          "metric": "أطوال خطوط الصرف",
+          "file": "data/layers/sewer_lines.geojson",
+          "sourceLayer": "خطوط_شبكة_الصرف",
+          "featureCount": 2040,
+          "geometryKind": "line",
+          "totalLengthM": 74570.3,
+          "totalLengthKm": 74.57,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "GlobalID",
+            "line_degree",
+            "manufacturing_material",
+            "diameter",
+            "execution_position",
+            "Depth",
+            "GL",
+            "IL",
+            "Implementing",
+            "sectors",
+            "Fault_statement",
+            "SHAPE_Length"
+          ],
+          "topTypes": [
+            {
+              "name": "200 مم",
+              "count": 1534
+            },
+            {
+              "name": "250 مم",
+              "count": 116
+            },
+            {
+              "name": "300 مم",
+              "count": 115
+            },
+            {
+              "name": "400 مم",
+              "count": 102
+            },
+            {
+              "name": "500 مم",
+              "count": 48
+            },
+            {
+              "name": "600 مم",
+              "count": 39
+            },
+            {
+              "name": "700 مم",
+              "count": 29
+            },
+            {
+              "name": "450 مم",
+              "count": 22
+            },
+            {
+              "name": "900 مم",
+              "count": 16
+            },
+            {
+              "name": "1000 مم",
+              "count": 7
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الثاني",
+              "count": 458
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 452
+            },
+            {
+              "name": "القطاع الثالث عشر ",
+              "count": 336
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 291
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 262
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 241
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "عوض خليفة",
+              "count": 458
+            },
+            {
+              "name": "السلام",
+              "count": 452
+            },
+            {
+              "name": "التوحيد",
+              "count": 291
+            },
+            {
+              "name": "اولاد حجازي",
+              "count": 262
+            }
+          ],
+          "statusBreakdown": []
+        }
+      ],
+      "totals": {
+        "features": 4097,
+        "lengthM": 74999.39,
+        "lengthKm": 75,
+        "areaM2": 855.83,
+        "areaHa": 0.09,
+        "pointFeatures": 2044,
+        "lineFeatures": 2040,
+        "polygonFeatures": 13,
+        "sectorsCount": 6,
+        "implementersCount": 4,
+        "topSectors": [
+          {
+            "name": "القطاع الخامس",
+            "count": 929
+          },
+          {
+            "name": "القطاع الثاني",
+            "count": 914
+          },
+          {
+            "name": "القطاع الثالث عشر ",
+            "count": 673
+          },
+          {
+            "name": "القطاع الثالث",
+            "count": 583
+          },
+          {
+            "name": "القطاع الاول",
+            "count": 516
+          },
+          {
+            "name": "القطاع الثاني عشر",
+            "count": 482
+          }
+        ],
+        "topImplementers": [
+          {
+            "name": "السلام",
+            "count": 929
+          },
+          {
+            "name": "عوض خليفة",
+            "count": 914
+          },
+          {
+            "name": "التوحيد",
+            "count": 583
+          },
+          {
+            "name": "اولاد حجازي",
+            "count": 516
+          }
+        ]
+      }
+    },
+    {
+      "id": "irrigation",
+      "name": "شبكة الري",
+      "shortName": "الري",
+      "color": "#70f570",
+      "gradient": "linear-gradient(135deg,#b2ff59,#00c853)",
+      "icon": "Sprout",
+      "description": "متابعة محابس وطلمبات وخطوط وغرف شبكة الري حسب القطاع والشركة المنفذة والأقطار.",
+      "layers": [
+        {
+          "id": "irrigation_valves",
+          "source": "طلمبات_محابس_شبكة_الرى",
+          "name": "طلمبات ومحابس شبكة الري",
+          "assetName": "محابس/طلمبات الري",
+          "typeField": "diameter",
+          "metric": "عدد محابس الري",
+          "file": "data/layers/irrigation_valves.geojson",
+          "sourceLayer": "طلمبات_محابس_شبكة_الرى",
+          "featureCount": 586,
+          "geometryKind": "point",
+          "totalLengthM": 0,
+          "totalLengthKm": 0,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "ID",
+            "diameter",
+            "Implementing",
+            "Easting",
+            "Northing",
+            "GlobalID",
+            "sectors",
+            "Start1",
+            "End1"
+          ],
+          "topTypes": [
+            {
+              "name": "50",
+              "count": 215
+            },
+            {
+              "name": "100",
+              "count": 160
+            },
+            {
+              "name": "110",
+              "count": 99
+            },
+            {
+              "name": "200",
+              "count": 51
+            },
+            {
+              "name": "160",
+              "count": 22
+            },
+            {
+              "name": "225",
+              "count": 8
+            },
+            {
+              "name": "300",
+              "count": 8
+            },
+            {
+              "name": "250",
+              "count": 8
+            },
+            {
+              "name": "400",
+              "count": 8
+            },
+            {
+              "name": "150",
+              "count": 7
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 202
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 115
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 68
+            },
+            {
+              "name": "القطاع الرابع عشر",
+              "count": 55
+            },
+            {
+              "name": "القطاع الخامس عشر",
+              "count": 46
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 34
+            },
+            {
+              "name": "القطاع الثاني",
+              "count": 34
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 31
+            },
+            {
+              "name": "القطاع الثاث عشر",
+              "count": 1
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "السلام",
+              "count": 68
+            },
+            {
+              "name": "اولاد حجازي",
+              "count": 34
+            },
+            {
+              "name": "عوض خليفة",
+              "count": 34
+            },
+            {
+              "name": "التوحيد",
+              "count": 31
+            }
+          ],
+          "statusBreakdown": []
+        },
+        {
+          "id": "irrigation_lines",
+          "source": "خطوط_شبكة_الري",
+          "name": "خطوط شبكة الري",
+          "assetName": "خطوط الري",
+          "typeField": "diameter",
+          "metric": "أطوال خطوط الري",
+          "file": "data/layers/irrigation_lines.geojson",
+          "sourceLayer": "خطوط_شبكة_الري",
+          "featureCount": 1089,
+          "geometryKind": "line",
+          "totalLengthM": 91316.07,
+          "totalLengthKm": 91.316,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "GlobalID",
+            "line_degree",
+            "manufacturing_material",
+            "diameter",
+            "execution_position",
+            "GL",
+            "IL",
+            "Depth",
+            "sectors",
+            "Implementing",
+            "Start",
+            "End_",
+            "SHAPE_Length"
+          ],
+          "topTypes": [
+            {
+              "name": "50 مم",
+              "count": 503
+            },
+            {
+              "name": "100 مم",
+              "count": 409
+            },
+            {
+              "name": "110 مم",
+              "count": 105
+            },
+            {
+              "name": "200 مم",
+              "count": 26
+            },
+            {
+              "name": "160 مم",
+              "count": 11
+            },
+            {
+              "name": "400 مم",
+              "count": 10
+            },
+            {
+              "name": "300 مم",
+              "count": 9
+            },
+            {
+              "name": "250 مم",
+              "count": 9
+            },
+            {
+              "name": "150 مم",
+              "count": 5
+            },
+            {
+              "name": "225 مم",
+              "count": 2
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الرابع عشر",
+              "count": 363
+            },
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 270
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 169
+            },
+            {
+              "name": "القطاع الخامس عشر",
+              "count": 168
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 46
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 41
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 24
+            },
+            {
+              "name": "القطاع الثاني",
+              "count": 8
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "التوحيد",
+              "count": 46
+            },
+            {
+              "name": "السلام",
+              "count": 41
+            },
+            {
+              "name": "اولاد حجازي",
+              "count": 24
+            },
+            {
+              "name": "عوض خليفة",
+              "count": 8
+            }
+          ],
+          "statusBreakdown": []
+        },
+        {
+          "id": "irrigation_rooms",
+          "source": "غرف_شبكة_الري",
+          "name": "غرف شبكة الري",
+          "assetName": "غرف الري",
+          "typeField": "Room_type",
+          "metric": "عدد غرف الري",
+          "file": "data/layers/irrigation_rooms.geojson",
+          "sourceLayer": "غرف_شبكة_الري",
+          "featureCount": 51,
+          "geometryKind": "polygon",
+          "totalLengthM": 3889.98,
+          "totalLengthKm": 3.89,
+          "totalAreaM2": 20609.44,
+          "totalAreaHa": 2.061,
+          "columns": [
+            "GlobalID",
+            "Room_Id",
+            "Room_type",
+            "Installation_Date",
+            "Room_contents",
+            "sectors",
+            "Implementing",
+            "Start",
+            "End_",
+            "shape_room",
+            "SHAPE_Length",
+            "SHAPE_Area"
+          ],
+          "topTypes": [
+            {
+              "name": "غرفة ري",
+              "count": 23
+            },
+            {
+              "name": "غرفة الري",
+              "count": 13
+            },
+            {
+              "name": "غرفة محبس",
+              "count": 13
+            },
+            {
+              "name": "غرفة ربط",
+              "count": 2
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الرابع عشر",
+              "count": 12
+            },
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 12
+            },
+            {
+              "name": "القطاع الخامس عشر",
+              "count": 11
+            },
+            {
+              "name": "القطاع الثاني",
+              "count": 4
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 3
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 3
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 3
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 3
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "عوض خليفة",
+              "count": 4
+            },
+            {
+              "name": "اولاد حجازي",
+              "count": 3
+            },
+            {
+              "name": "التوحيد",
+              "count": 3
+            },
+            {
+              "name": "السلام",
+              "count": 3
+            }
+          ],
+          "statusBreakdown": []
+        }
+      ],
+      "totals": {
+        "features": 1726,
+        "lengthM": 95206.05,
+        "lengthKm": 95.21,
+        "areaM2": 20609.44,
+        "areaHa": 2.06,
+        "pointFeatures": 586,
+        "lineFeatures": 1089,
+        "polygonFeatures": 51,
+        "sectorsCount": 9,
+        "implementersCount": 4,
+        "topSectors": [
+          {
+            "name": "القطاع الثالث عشر",
+            "count": 484
+          },
+          {
+            "name": "القطاع الرابع عشر",
+            "count": 430
+          },
+          {
+            "name": "القطاع الثاني عشر",
+            "count": 287
+          },
+          {
+            "name": "القطاع الخامس عشر",
+            "count": 225
+          },
+          {
+            "name": "القطاع الخامس",
+            "count": 112
+          },
+          {
+            "name": "القطاع الثالث",
+            "count": 80
+          },
+          {
+            "name": "القطاع الاول",
+            "count": 61
+          },
+          {
+            "name": "القطاع الثاني",
+            "count": 46
+          },
+          {
+            "name": "القطاع الثاث عشر",
+            "count": 1
+          }
+        ],
+        "topImplementers": [
+          {
+            "name": "السلام",
+            "count": 112
+          },
+          {
+            "name": "التوحيد",
+            "count": 80
+          },
+          {
+            "name": "اولاد حجازي",
+            "count": 61
+          },
+          {
+            "name": "عوض خليفة",
+            "count": 46
+          }
+        ]
+      }
+    },
+    {
+      "id": "gas",
+      "name": "شبكة الغاز",
+      "shortName": "الغاز",
+      "color": "#ff9f1c",
+      "gradient": "linear-gradient(135deg,#ffd166,#f77f00)",
+      "icon": "Flame",
+      "description": "تحليل عناصر ومنشآت وخطوط شبكة الغاز حسب النوع والقطاع وجهة التنفيذ.",
+      "layers": [
+        {
+          "id": "gas_assets",
+          "source": "عناصر_شبكة_الغاز",
+          "name": "عناصر شبكة الغاز",
+          "assetName": "عناصر الغاز",
+          "typeField": "Gas_Facility_Type",
+          "metric": "عدد عناصر الغاز",
+          "file": "data/layers/gas_assets.geojson",
+          "sourceLayer": "عناصر_شبكة_الغاز",
+          "featureCount": 963,
+          "geometryKind": "point",
+          "totalLengthM": 0,
+          "totalLengthKm": 0,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "Gas_Facility_Type",
+            "Easting",
+            "Northing",
+            "Description",
+            "GlobalID",
+            "sectors",
+            "Implementing"
+          ],
+          "topTypes": [
+            {
+              "name": "محبس",
+              "count": 606
+            },
+            {
+              "name": "مخفض",
+              "count": 330
+            },
+            {
+              "name": "ايندكاب",
+              "count": 27
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الثالث",
+              "count": 172
+            },
+            {
+              "name": "القطاع الثاني",
+              "count": 151
+            },
+            {
+              "name": "القطاع السادس عشر",
+              "count": 149
+            },
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 105
+            },
+            {
+              "name": "القطاع الرابع عشر",
+              "count": 94
+            },
+            {
+              "name": "القطاع الخامس عشر",
+              "count": 67
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 57
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 55
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 54
+            },
+            {
+              "name": "القطاع السابع عشر",
+              "count": 50
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "غاز مصر",
+              "count": 963
+            }
+          ],
+          "statusBreakdown": []
+        },
+        {
+          "id": "gas_facilities",
+          "source": "منشأت_الغاز",
+          "name": "منشآت الغاز",
+          "assetName": "منشآت الغاز",
+          "typeField": "Gas_Facility_Type",
+          "metric": "عدد منشآت الغاز",
+          "file": "data/layers/gas_facilities.geojson",
+          "sourceLayer": "منشأت_الغاز",
+          "featureCount": 14,
+          "geometryKind": "polygon",
+          "totalLengthM": 165.64,
+          "totalLengthKm": 0.166,
+          "totalAreaM2": 125,
+          "totalAreaHa": 0.013,
+          "columns": [
+            "Gas_Facility_Type",
+            "Easting",
+            "Northing",
+            "Description",
+            "GlobalID",
+            "sectors",
+            "Implementing",
+            "ID",
+            "SHAPE_Length",
+            "SHAPE_Area"
+          ],
+          "topTypes": [
+            {
+              "name": "غرفة",
+              "count": 14
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الخامس عشر",
+              "count": 3
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 2
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 2
+            },
+            {
+              "name": "القطاع السابع عشر",
+              "count": 2
+            },
+            {
+              "name": "القطاع الثاني",
+              "count": 1
+            },
+            {
+              "name": "القطاع الرابع عشر",
+              "count": 1
+            },
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 1
+            },
+            {
+              "name": "القطاع السادس عشر",
+              "count": 1
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 1
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "غاز مصر",
+              "count": 14
+            }
+          ],
+          "statusBreakdown": []
+        },
+        {
+          "id": "gas_lines",
+          "source": "خطوط_شبكة_الغاز",
+          "name": "خطوط شبكة الغاز",
+          "assetName": "خطوط الغاز",
+          "typeField": "Gas_Lines_Type",
+          "metric": "أطوال خطوط الغاز",
+          "file": "data/layers/gas_lines.geojson",
+          "sourceLayer": "خطوط_شبكة_الغاز",
+          "featureCount": 9911,
+          "geometryKind": "line",
+          "totalLengthM": 236452.69,
+          "totalLengthKm": 236.453,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "Gas_Lines_Type",
+            "Depth",
+            "GL",
+            "IL",
+            "Implementing",
+            "manufacturing_material",
+            "GlobalID",
+            "sectors",
+            "execution_position",
+            "SHAPE_Length"
+          ],
+          "topTypes": [
+            {
+              "name": "تغذية منزلية",
+              "count": 5389
+            },
+            {
+              "name": "فرعي",
+              "count": 4493
+            },
+            {
+              "name": "رئيسي",
+              "count": 29
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع السادس عشر",
+              "count": 1757
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 1457
+            },
+            {
+              "name": "القطاع الرابع عشر",
+              "count": 1246
+            },
+            {
+              "name": "القطاع الثاني",
+              "count": 1225
+            },
+            {
+              "name": "القطاع الثالث عشر",
+              "count": 1212
+            },
+            {
+              "name": "القطاع الخامس عشر",
+              "count": 798
+            },
+            {
+              "name": "القطاع الثاني عشر",
+              "count": 740
+            },
+            {
+              "name": "القطاع السابع عشر",
+              "count": 577
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 497
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 388
+            }
+          ],
+          "topImplementers": [
+            {
+              "name": "غاز مصر",
+              "count": 9911
+            }
+          ],
+          "statusBreakdown": []
+        }
+      ],
+      "totals": {
+        "features": 10888,
+        "lengthM": 236618.33,
+        "lengthKm": 236.62,
+        "areaM2": 125,
+        "areaHa": 0.01,
+        "pointFeatures": 963,
+        "lineFeatures": 9911,
+        "polygonFeatures": 14,
+        "sectorsCount": 10,
+        "implementersCount": 1,
+        "topSectors": [
+          {
+            "name": "القطاع السادس عشر",
+            "count": 1907
+          },
+          {
+            "name": "القطاع الثالث",
+            "count": 1631
+          },
+          {
+            "name": "القطاع الثاني",
+            "count": 1377
+          },
+          {
+            "name": "القطاع الرابع عشر",
+            "count": 1341
+          },
+          {
+            "name": "القطاع الثالث عشر",
+            "count": 1318
+          },
+          {
+            "name": "القطاع الخامس عشر",
+            "count": 868
+          },
+          {
+            "name": "القطاع الثاني عشر",
+            "count": 798
+          },
+          {
+            "name": "القطاع السابع عشر",
+            "count": 629
+          },
+          {
+            "name": "القطاع الخامس",
+            "count": 552
+          },
+          {
+            "name": "القطاع الاول",
+            "count": 444
+          }
+        ],
+        "topImplementers": [
+          {
+            "name": "غاز مصر",
+            "count": 10888
+          }
+        ]
+      }
+    },
+    {
+      "id": "telecom",
+      "name": "شبكة الاتصالات",
+      "shortName": "الاتصالات",
+      "color": "#c77dff",
+      "gradient": "linear-gradient(135deg,#e0aaff,#7b2cbf)",
+      "icon": "RadioTower",
+      "description": "عرض مرافق ومنشآت وخطوط الاتصالات مع قوائم بحث وتفاصيل وخرائط تفاعلية.",
+      "layers": [
+        {
+          "id": "telecom_assets",
+          "source": "مرافق_الاتصالات",
+          "name": "مرافق الاتصالات",
+          "assetName": "مرافق الاتصالات",
+          "typeField": "Telecom_Feature_Type",
+          "metric": "عدد مرافق الاتصالات",
+          "file": "data/layers/telecom_assets.geojson",
+          "sourceLayer": "مرافق_الاتصالات",
+          "featureCount": 1722,
+          "geometryKind": "point",
+          "totalLengthM": 0,
+          "totalLengthKm": 0,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "Description",
+            "Telecom_Feature_Type",
+            "Easting",
+            "Northing",
+            "ID",
+            "GlobalID",
+            "sectors",
+            "Distance",
+            "I_D"
+          ],
+          "topTypes": [
+            {
+              "name": "بوكس",
+              "count": 961
+            },
+            {
+              "name": "كونيكتور",
+              "count": 463
+            },
+            {
+              "name": "جوينت",
+              "count": 140
+            },
+            {
+              "name": "ايندكاب",
+              "count": 135
+            },
+            {
+              "name": "شمبر",
+              "count": 23
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الثاني",
+              "count": 699
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 497
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 370
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 156
+            }
+          ],
+          "topImplementers": [],
+          "statusBreakdown": []
+        },
+        {
+          "id": "telecom_facilities",
+          "source": "منشأت_شبكة_الاتصالات",
+          "name": "منشآت شبكة الاتصالات",
+          "assetName": "منشآت الاتصالات",
+          "typeField": "Telecom_Facility_Type",
+          "metric": "عدد منشآت الاتصالات",
+          "file": "data/layers/telecom_facilities.geojson",
+          "sourceLayer": "منشأت_شبكة_الاتصالات",
+          "featureCount": 51,
+          "geometryKind": "polygon",
+          "totalLengthM": 711.45,
+          "totalLengthKm": 0.711,
+          "totalAreaM2": 1204.28,
+          "totalAreaHa": 0.12,
+          "columns": [
+            "Telecom_Facility_Type",
+            "Easting",
+            "Northing",
+            "Description",
+            "ID",
+            "GlobalID",
+            "sectors",
+            "number_boxs",
+            "SHAPE_Length",
+            "SHAPE_Area"
+          ],
+          "topTypes": [
+            {
+              "name": "كبينة",
+              "count": 43
+            },
+            {
+              "name": "باسيف",
+              "count": 8
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الثاني",
+              "count": 19
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 18
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 7
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 7
+            }
+          ],
+          "topImplementers": [],
+          "statusBreakdown": []
+        },
+        {
+          "id": "telecom_lines",
+          "source": "خطوط_شبكة_الاتصالات",
+          "name": "خطوط شبكة الاتصالات",
+          "assetName": "خطوط الاتصالات",
+          "typeField": "Telecom_Lines_Type",
+          "metric": "أطوال خطوط الاتصالات",
+          "file": "data/layers/telecom_lines.geojson",
+          "sourceLayer": "خطوط_شبكة_الاتصالات",
+          "featureCount": 2730,
+          "geometryKind": "line",
+          "totalLengthM": 79611.01,
+          "totalLengthKm": 79.611,
+          "totalAreaM2": 0,
+          "totalAreaHa": 0,
+          "columns": [
+            "GlobalID",
+            "Description",
+            "Telecom_Lines_Type",
+            "GL",
+            "IL",
+            "Depth",
+            "sectors",
+            "SHAPE_Length"
+          ],
+          "topTypes": [
+            {
+              "name": "فرعي",
+              "count": 2553
+            },
+            {
+              "name": "رئيسي",
+              "count": 177
+            }
+          ],
+          "topSectors": [
+            {
+              "name": "القطاع الثاني",
+              "count": 1057
+            },
+            {
+              "name": "القطاع الثالث",
+              "count": 832
+            },
+            {
+              "name": "القطاع الاول",
+              "count": 586
+            },
+            {
+              "name": "القطاع الخامس",
+              "count": 255
+            }
+          ],
+          "topImplementers": [],
+          "statusBreakdown": []
+        }
+      ],
+      "totals": {
+        "features": 4503,
+        "lengthM": 80322.46,
+        "lengthKm": 80.32,
+        "areaM2": 1204.28,
+        "areaHa": 0.12,
+        "pointFeatures": 1722,
+        "lineFeatures": 2730,
+        "polygonFeatures": 51,
+        "sectorsCount": 4,
+        "implementersCount": 0,
+        "topSectors": [
+          {
+            "name": "القطاع الثاني",
+            "count": 1775
+          },
+          {
+            "name": "القطاع الثالث",
+            "count": 1347
+          },
+          {
+            "name": "القطاع الاول",
+            "count": 963
+          },
+          {
+            "name": "القطاع الخامس",
+            "count": 418
+          }
+        ],
+        "topImplementers": []
+      }
+    }
+  ],
+  "roads": {
+    "id": "roads",
+    "name": "الطرق والقطاعات",
+    "shortName": "الطرق",
+    "color": "#8ec5ff",
+    "gradient": "linear-gradient(135deg,#8ec5ff,#3d5afe)",
+    "icon": "Route",
+    "description": "متابعة تنفيذ الطرق والقطاعات الإدارية لمدينة العبور الجديدة.",
+    "layers": [
+      {
+        "id": "roads_lines",
+        "source": "Roads",
+        "name": "طرق المدينة",
+        "assetName": "طرق المدينة",
+        "typeField": "موقف_التنفيذ",
+        "metric": "أطوال الطرق",
+        "file": "data/layers/roads_lines.geojson",
+        "sourceLayer": "Roads",
+        "featureCount": 1160,
+        "geometryKind": "line",
+        "totalLengthM": 242114.37,
+        "totalLengthKm": 242.114,
+        "totalAreaM2": 0,
+        "totalAreaHa": 0,
+        "columns": [
+          "اسم_الحي",
+          "نوع_الطريق",
+          "اسم_القطاع",
+          "موقف_التنفيذ",
+          "موقف_المتخلص",
+          "ملاحظات",
+          "Length",
+          "Field",
+          "SHAPE_Length"
+        ],
+        "topTypes": [
+          {
+            "name": "تم التسليم",
+            "count": 730
+          },
+          {
+            "name": "جاري العمل ميدانيا",
+            "count": 343
+          },
+          {
+            "name": "جاري العمل مكتبيا",
+            "count": 86
+          },
+          {
+            "name": "لم يتم العمل عليه",
+            "count": 1
+          }
+        ],
+        "topSectors": [
+          {
+            "name": "حي 39",
+            "count": 539
+          },
+          {
+            "name": "حي 15",
+            "count": 293
+          },
+          {
+            "name": "حي 16",
+            "count": 136
+          },
+          {
+            "name": "حي 14",
+            "count": 134
+          },
+          {
+            "name": "حي 13",
+            "count": 57
+          },
+          {
+            "name": "حي 37",
+            "count": 1
+          }
+        ],
+        "topImplementers": [],
+        "statusBreakdown": [
+          {
+            "name": "تم التسليم",
+            "count": 730
+          },
+          {
+            "name": "جاري العمل ميدانيا",
+            "count": 343
+          },
+          {
+            "name": "جاري العمل مكتبيا",
+            "count": 86
+          },
+          {
+            "name": "لم يتم العمل عليه",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "sectors_polygons",
+        "source": "القطاعات",
+        "name": "قطاعات المدينة",
+        "assetName": "قطاعات المدينة",
+        "typeField": "Statuse_Sector",
+        "metric": "عدد القطاعات",
+        "file": "data/layers/sectors_polygons.geojson",
+        "sourceLayer": "القطاعات",
+        "featureCount": 23,
+        "geometryKind": "polygon",
+        "totalLengthM": 104055.95,
+        "totalLengthKm": 104.056,
+        "totalAreaM2": 24804189.51,
+        "totalAreaHa": 2480.419,
+        "columns": [
+          "اسم_القطاع",
+          "المساحة",
+          "المرحلة",
+          "Statuse_Sector",
+          "GlobalID",
+          "الترتيب",
+          "SHAPE_Length",
+          "SHAPE_Area"
+        ],
+        "topTypes": [
+          {
+            "name": "تم التسليم",
+            "count": 17
+          },
+          {
+            "name": "جاري العمل ميدانياً",
+            "count": 3
+          },
+          {
+            "name": "جاري العمل مكتبياً",
+            "count": 2
+          },
+          {
+            "name": "لم يتم العمل عليهم",
+            "count": 1
+          }
+        ],
+        "topSectors": [
+          {
+            "name": "حي 39",
+            "count": 11
+          },
+          {
+            "name": "حي 16",
+            "count": 3
+          },
+          {
+            "name": "حي14",
+            "count": 3
+          },
+          {
+            "name": "حي 15",
+            "count": 2
+          },
+          {
+            "name": "بدون",
+            "count": 1
+          }
+        ],
+        "topImplementers": [],
+        "statusBreakdown": [
+          {
+            "name": "تم التسليم",
+            "count": 17
+          },
+          {
+            "name": "جاري العمل ميدانياً",
+            "count": 3
+          },
+          {
+            "name": "جاري العمل مكتبياً",
+            "count": 2
+          },
+          {
+            "name": "لم يتم العمل عليهم",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "admin_boundaries",
+        "source": "التقسيم_الاداري",
+        "name": "التقسيم الإداري",
+        "assetName": "الأحياء/المراحل",
+        "typeField": "المرحلة",
+        "metric": "عدد التقسيمات الإدارية",
+        "file": "data/layers/admin_boundaries.geojson",
+        "sourceLayer": "التقسيم_الاداري",
+        "featureCount": 6,
+        "geometryKind": "polygon",
+        "totalLengthM": 52328.39,
+        "totalLengthKm": 52.328,
+        "totalAreaM2": 26854812.78,
+        "totalAreaHa": 2685.481,
+        "columns": [
+          "المرحلة",
+          "GlobalID",
+          "SHAPE_Length",
+          "SHAPE_Area"
+        ],
+        "topTypes": [
+          {
+            "name": "الحي 39",
+            "count": 1
+          },
+          {
+            "name": "حي 16",
+            "count": 1
+          },
+          {
+            "name": "حي 15",
+            "count": 1
+          },
+          {
+            "name": "الحي 14",
+            "count": 1
+          },
+          {
+            "name": "الحي 13",
+            "count": 1
+          },
+          {
+            "name": "حي 37",
+            "count": 1
+          }
+        ],
+        "topSectors": [
+          {
+            "name": "الحي 39",
+            "count": 1
+          },
+          {
+            "name": "حي 16",
+            "count": 1
+          },
+          {
+            "name": "حي 15",
+            "count": 1
+          },
+          {
+            "name": "الحي 14",
+            "count": 1
+          },
+          {
+            "name": "الحي 13",
+            "count": 1
+          },
+          {
+            "name": "حي 37",
+            "count": 1
+          }
+        ],
+        "topImplementers": [],
+        "statusBreakdown": []
+      }
+    ],
+    "totals": {
+      "features": 1189,
+      "lengthM": 398498.71,
+      "lengthKm": 398.5,
+      "areaM2": 51659002.29,
+      "areaHa": 5165.9,
+      "pointFeatures": 0,
+      "lineFeatures": 1160,
+      "polygonFeatures": 29,
+      "sectorsCount": 11,
+      "implementersCount": 0,
+      "topSectors": [
+        {
+          "name": "حي 39",
+          "count": 550
+        },
+        {
+          "name": "حي 15",
+          "count": 296
+        },
+        {
+          "name": "حي 16",
+          "count": 140
+        },
+        {
+          "name": "حي 14",
+          "count": 134
+        },
+        {
+          "name": "حي 13",
+          "count": 57
+        },
+        {
+          "name": "حي14",
+          "count": 3
+        },
+        {
+          "name": "حي 37",
+          "count": 2
+        },
+        {
+          "name": "بدون",
+          "count": 1
+        },
+        {
+          "name": "الحي 39",
+          "count": 1
+        },
+        {
+          "name": "الحي 14",
+          "count": 1
+        }
+      ],
+      "topImplementers": []
+    },
+    "progress": {
+      "roadTotalKm": 300,
+      "roadCount": 1160,
+      "sectorCount": 23,
+      "roadsByStatusKm": [
+        {
+          "name": "تم التسليم",
+          "value": 206.6,
+          "unit": "كم"
+        },
+        {
+          "name": "جاري العمل ميدانيا",
+          "value": 60.11,
+          "unit": "كم"
+        },
+        {
+          "name": "جاري العمل مكتبيا",
+          "value": 22.79,
+          "unit": "كم"
+        },
+        {
+          "name": "لم يتم العمل عليه",
+          "value": 10.5,
+          "unit": "كم"
+        }
+      ],
+      "sectorsByStatus": [
+        {
+          "name": "تم التسليم",
+          "value": 17,
+          "unit": "قطاع"
+        },
+        {
+          "name": "جاري العمل ميدانياً",
+          "value": 3,
+          "unit": "قطاع"
+        },
+        {
+          "name": "جاري العمل مكتبياً",
+          "value": 2,
+          "unit": "قطاع"
+        },
+        {
+          "name": "لم يتم العمل عليهم",
+          "value": 1,
+          "unit": "قطاع"
+        }
+      ],
+      "roadTypeBreakdown": [
+        {
+          "name": "رئيسي",
+          "value": 670,
+          "unit": "طريق"
+        },
+        {
+          "name": "ثانوي",
+          "value": 489,
+          "unit": "طريق"
+        },
+        {
+          "name": "فرعي",
+          "value": 1,
+          "unit": "طريق"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "حي 39",
+          "count": 539
+        },
+        {
+          "name": "حي 15",
+          "count": 293
+        },
+        {
+          "name": "حي 16",
+          "count": 136
+        },
+        {
+          "name": "حي 14",
+          "count": 134
+        },
+        {
+          "name": "حي 13",
+          "count": 57
+        },
+        {
+          "name": "حي 37",
+          "count": 1
+        }
+      ],
+      "sectors": [
+        {
+          "name": "ABOR 7",
+          "count": 203
+        },
+        {
+          "name": "ABOR 20",
+          "count": 106
+        },
+        {
+          "name": "ABOR 8",
+          "count": 90
+        },
+        {
+          "name": "ABOR 19",
+          "count": 86
+        },
+        {
+          "name": "ABOR 10",
+          "count": 81
+        },
+        {
+          "name": "ABOR 16",
+          "count": 72
+        },
+        {
+          "name": "ABOR 17",
+          "count": 71
+        },
+        {
+          "name": "ABOR 2",
+          "count": 57
+        },
+        {
+          "name": "ABOR 3",
+          "count": 55
+        },
+        {
+          "name": "ABOR 5",
+          "count": 51
+        }
+      ]
+    }
+  },
+  "global": {
+    "networkCount": 6,
+    "totalFeatures": 40478,
+    "totalLengthKm": 1473.66,
+    "totalAreaHa": 12.9,
+    "totalRoadKm": 300,
+    "totalSectors": 23,
+    "totalRoads": 1160
+  }
+}
