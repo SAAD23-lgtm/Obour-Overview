@@ -3,27 +3,32 @@
   "version": "5.0.0",
   "private": true,
   "type": "module",
+  "packageManager": "npm@10.9.8",
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
+  },
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "typescript": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "leaflet": "latest",
-    "react-leaflet": "latest",
-    "recharts": "latest",
-    "lucide-react": "latest",
-    "framer-motion": "latest"
+    "@vitejs/plugin-react": "6.0.1",
+    "vite": "8.0.10",
+    "typescript": "6.0.3",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "leaflet": "1.9.4",
+    "react-leaflet": "5.0.0",
+    "recharts": "3.8.1",
+    "lucide-react": "1.14.0",
+    "framer-motion": "12.38.0"
   },
   "devDependencies": {
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "@types/leaflet": "latest",
-    "@types/geojson": "latest"
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/leaflet": "1.9.21",
+    "@types/geojson": "7946.0.16"
   }
 }
